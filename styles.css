@@ -244,3 +244,33 @@ footer {
     height: 24px;
     cursor: pointer;
 }
+
+@media (max-width: 1024px) { 
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    .footer-menu {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 768px) { 
+    .subscription-form input {
+        width: 90%;
+    }
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    .footer-menu {
+        flex-direction: column;
+        gap: 5px;
+    }
+    .footer-icons {
+        justify-content: center;
+    }
+}
